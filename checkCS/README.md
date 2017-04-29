@@ -6,7 +6,7 @@
 * cd checkCS
 
 # usage: 
-* python checkCS.py <host>  < [public | private | stringbleed] > 
+* python checkCS.py < host >  < [public | private | stringbleed] > 
 
 
 
