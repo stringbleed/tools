@@ -21,6 +21,10 @@ import sys
 
 '''
 
+banner = '''
+	[+] Counter Sheep v1.0
+'''
+
 parser = argparse.ArgumentParser(description=' [*] Tool for get the total number of cablemodems vuln to #Stringbleed, (indexed into Shodan)')
 
 parser.add_argument('--models-file', 	dest="MODELS", 	help='select any files with models name of cablemodems')
@@ -88,7 +92,7 @@ def theModelIs(cblMDL):
 	time.sleep(2)
 	
 # ------------------------------------------------------------------------------------------------------------------- #
-
+print banner
 if (bool(allModels)):
 	try:
 		cableModels 	= open(allModels,"r")
