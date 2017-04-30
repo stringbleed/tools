@@ -31,7 +31,7 @@ class Colors:
     BR_COLOUR 	= '\033[1;37;40m'
 
 def help():
-	print Colors.ORANGE+"Test of communitys strings de devices with services SNMP"
+	print Colors.ORANGE+"Simple python script for fuzzer the field \"community strings\""
 	print Colors.GREEN+"Use:"+Colors.BLUE+"\n\t%s <host> <version> <community> <community x N> " % sys.argv[0]
 	print "\n"+Colors.DEFAULT
 
