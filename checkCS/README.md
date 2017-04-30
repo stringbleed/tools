@@ -1,4 +1,4 @@
-# checking: Check Community String
+Check Community String
 
 # Quick start
 
@@ -8,7 +8,10 @@
 # usage: 
 * usr@pwn:~$ python checkCS.py < host >  < [public | private | stringbleed] > 
 
+# DEMO:
 
+''' 
+usr@pwn:~$ python checkCS.py 192.168.0.1 stringbleed
 
-
+'''
 
