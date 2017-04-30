@@ -2,11 +2,11 @@
 
 # Quick start
 
-* [usr@pwn:~$] git clone https://github.com/stringbleed/tools.git
-* cd checkCS
+* usr@pwn:~$ git clone https://github.com/stringbleed/tools.git
+* usr@pwn:~$ cd checkCS
 
 # usage: 
-* python checkCS.py < host >  < [public | private | stringbleed] > 
+* usr@pwn:~$ python checkCS.py < host >  < [public | private | stringbleed] > 
 
 
 
