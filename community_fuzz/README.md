@@ -12,7 +12,7 @@
 	fuzzCommStr-v1.py <host> <version> <community> <community x N> 
 
 ## screenshot:
-	![community fuzz](/tool.png)
+	![community fuzz](tool.png)
 
 
 # Demo:
