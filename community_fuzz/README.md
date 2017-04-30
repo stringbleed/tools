@@ -12,7 +12,7 @@
 	fuzzCommStr-v1.py <host> <version> <community> <community x N> 
 
 ## screenshot:
-	![community fuzz](tool.png)
+	![community fuzz](https://github.com/stringbleed/tools/blob/master/community_fuzz/tool.png)
 
 
 # Demo:
