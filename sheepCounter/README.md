@@ -1,12 +1,14 @@
 # tool: Sheep Counter v 1.0
 ## Simple python tool to get the total of models indexed in "shodan.io".
 
+
+
 # SHODAN:
 ## (free) APIKEY: *MM72AkzHXdHpC8iP65VVEEVrJjp7zkgd*
 
 ```
 	freeAPIKEY  = 'MM72AkzHXdHpC8iP65VVEEVrJjp7zkgd'
-	api     	= shodan.Shodan(freeAPIKEY)
+	api 		= shodan.Shodan(freeAPIKEY)
 
 ```
 
@@ -18,7 +20,8 @@
 
 
 
-# Search target: "Format fingerprinting"
+
+# Search target: fingerprinting SNMP - oid sysDescr -  
 
 * Cisco DPC3928SL DOCSIS 3.0 1-PORT Voice Gateway <<HW_REV: 1.0; VENDOR: Technicolor; BOOTR: 2.4.0; SW_REV: D3928SL-PSIP-13-A010-c3420r55105-160428a; *MODEL: DPC3928SL*>>
 * Thomson CableHome Gateway <<HW_REV: 2.1; VENDOR: Thomson; BOOTR: 2.1.7i; SW_REV: ST9C.05.25; *MODEL: DWG850-4*>>
@@ -27,13 +30,13 @@
 
 # Demo:
 ## POC 1
-Get total ONE model:
+Get total only ONE model:
 ```
 	usr@pwn:~$ python SheepCounter.py --model DPC3928SL
 
 
 ```
-## POC 1
+## POC 2
 Get total model of the list "models.txt":
 ```
 	usr@pwn:~$ python SheepCounter.py --models-file models.txt
@@ -46,7 +49,8 @@ Get total model of the list "models.txt":
 
 *models in file: models.txt*
 ![all_model](sheep_models_1.png)
-... cut
+### *** (cut)
+
 ![all_model](sheep_models_2.png)
 
 # MODELS LIST:
