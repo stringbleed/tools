@@ -44,4 +44,11 @@ Check Community String
 
 ```
 
+# Security Researcher
+
+_[x] Bertin Jose (Costa Rica) 
+	* twitter: @bertinjoseb
+
+_[x] Fernandez Ezequiel (Argentina)
+	* twitter: @capitan_alfa
 
