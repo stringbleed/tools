@@ -9,7 +9,7 @@
 
 ## screenshot:
 
-![community fuzz](https://raw.githubusercontent.com/stringbleed/tools/master/community_fuzz/tool.png)
+![community fuzz](tool.png)
 
 
 # Usage:
