@@ -5,7 +5,7 @@ import shodan
 import sys
 
 '''
-	[!] Simple python script to get the total number of models indexed in "shodan.io".
+	[!] Simple python tool to get the total of models indexed in "shodan.io".
 
 
 	[*] Research: "#stringbleed" (CVE-2017-5135)
