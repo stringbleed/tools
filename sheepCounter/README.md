@@ -7,8 +7,15 @@
 ## (free) APIKEY: *MM72AkzHXdHpC8iP65VVEEVrJjp7zkgd*
 
 ```
-	freeAPIKEY  = 'MM72AkzHXdHpC8iP65VVEEVrJjp7zkgd'
+	query		= 'MODEL: '
+	cblMDL 		= "DPC3928SL"  		# --model <model>  
+	cableModel 	= str(query+cblMDL)
+
+	freeAPIKEY	= 'MM72AkzHXdHpC8iP65VVEEVrJjp7zkgd'
 	api 		= shodan.Shodan(freeAPIKEY)
+	countCBL 	= api.count(cableModel)
+
+	print countCBL
 
 ```
 
