@@ -151,3 +151,13 @@ Get total model of the list "models.txt":
 
 ## update: 24/04/2017
 * total: ----
+
+
+# Security Researcher
+
+### Bertin Jose (Costa Rica)  
+* twitter: @bertinjoseb
+
+### Fernandez Ezequiel (Argentina) 
+* twitter: @capitan_alfa
+
