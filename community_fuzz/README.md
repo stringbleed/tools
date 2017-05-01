@@ -32,3 +32,11 @@
 
 	'''
 
+# Security Researcher
+
+### Bertin Jose (Costa Rica)  
+* twitter: @bertinjoseb
+
+### Fernandez Ezequiel (Argentina) 
+* twitter: @capitan_alfa
+
