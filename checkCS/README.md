@@ -24,7 +24,7 @@ Check Community String
 ![public](checkCS_public.png)
 
 *community stringbleed*
-![stringbleed](checkCS_checkCS_stringbleed.png)
+![stringbleed](checkCS_stringbleed.png)
 
 
 # Demo:
