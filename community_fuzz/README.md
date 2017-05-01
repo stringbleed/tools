@@ -5,14 +5,15 @@
 
 * usr@pwn:~$ git clone https://github.com/stringbleed/tools.git
 * usr@pwn:~$ cd community_fuzz
+* usr@pwn:~$ python fuzzCommStr-v1.py
 
+## screenshot:
+
+![community fuzz](https://raw.githubusercontent.com/stringbleed/tools/master/community_fuzz/tool.png)
 
 
 # Usage:
 	fuzzCommStr-v1.py <host> <version> <community> <community x N> 
-
-## screenshot:
-	![community fuzz](https://raw.githubusercontent.com/stringbleed/tools/master/community_fuzz/tool.png)
 
 
 # Demo:
